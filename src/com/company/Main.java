@@ -34,11 +34,21 @@ public class Main {
 
     //algorithm 4- minToSec
 
-
+    public static int convert(int minutes) {
+        int seconds=minutes*60;
+        return(seconds);
+    }
 
 
 
     //algorithm 5- returnSomething
+
+    public static String giveMeSomething(String a) {
+        return "something " +a;
+    }
+
+    //algorithm 6
+
 
 
 
