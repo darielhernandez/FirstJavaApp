@@ -69,7 +69,51 @@ public class Main {
     }
 
 
-    //algorithm 9- vowels
+    //algorithm 9- vowels **needed help on this one.
+    public static int getCount(String str) {
+        return str.replaceAll("[^aeiouAEIOU]", "").length();
+    }
+
+
+//Algorithm 10 sumOfTwoNumbers
+public static int sum(int a, int b) {
+    return a+b;
+}
+
+
+//Algorithm 11 equalNumbers
+public static boolean isSameNum(int x, int y) {
+    if(x==y){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+
+//Algorithm 12 ageToDays
+public static int calcAge(int age) {
+    return age*365;
+}
+
+
+//Algorithm 13 nameGreeting
+public static String helloName(String name) {
+    return "Hello "+ name+"!";
+}
+
+
+//Algorithm 14 reverseString **needed help with this one
+public static String reverse(final String str) {
+    String reverse = "";
+    for(int i= str.length()-1;i>= 0; i--)
+    {
+        reverse = reverse + str.charAt(i);
+    }
+    return reverse;
+}
+
+
 
 
 
