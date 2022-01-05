@@ -57,6 +57,13 @@ public class Main {
     public static int countWords(String s) {
         return s.split(" ").length;
     }
+    //or-- solution 2
+    int numOfSpaces=0
+				for (int i-0; i<newStr.length();i++){
+        if(newStr.charAt(i)--' '){
+            numOfSpaces++;
+        }
+    }
 
 
     //algorithm 8-numHigher ** couldn't figure this one out-- used solutions.
