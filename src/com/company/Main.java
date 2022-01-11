@@ -61,7 +61,7 @@ public class Main {
     int numOfSpaces=0
 				for (int i-0; i<newStr.length();i++){
         if(newStr.charAt(i)--' '){
-            numOfSpaces++;
+
         }
     }
 
@@ -119,15 +119,29 @@ public static String reverse(final String str) {
     }
     return reverse;
 }
+                //15 twoMakesTen
+                public static boolean makesTen(int a, int b) {
+                    return (a == 10 || b == 10 || (a + b) == 10);
+                }
+
+    //16 countSyllables
+    public static int numberSyllables(String word) {
+        String[] syl = word.split("-");
+        return syl.length;
+    }
+
+    //17 caseInsensative Comparisons
+    public static boolean match(String str1, String str2) {
+        return str1.equalsIgnoreCase(str2);
+    }
 
 
-
-
-
-
-
-
-
+    //18 hackerSpeak
+    public static String hackerSpeak(String str) {
+        return str.replace('a', '4')
+                .replace('e', '3').replace('i', '1')
+                .replace('o', '0').replace('s', '5');
+    }
 
 
 }
