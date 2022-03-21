@@ -142,6 +142,17 @@ public static String reverse(final String str) {
                 .replace('e', '3').replace('i', '1')
                 .replace('o', '0').replace('s', '5');
     }
+//this is a constructor... generate by Code>Generate or Alt+Insert
+    public Main(int numOfSpaces, int i) {
+        this.numOfSpaces = numOfSpaces;
+        this.i = i;
+    }
 
 
+}
+// homework 21March2022
+public class HalfSplit {
+    public static int[] numberSplit(int n) {
+        return new int[] {(int)Math.floor(n/2.0), (int)Math.ceil(n/2.0)};
+    }
 }
